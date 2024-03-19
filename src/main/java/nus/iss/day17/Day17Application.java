@@ -1,13 +1,10 @@
 package nus.iss.day17;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import nus.iss.day17.model.GiphyImage;
 import nus.iss.day17.service.GiphyService;
 
 @SpringBootApplication

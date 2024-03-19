@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
 </head>
-<body>
-    
+<body> 
+    <h1>Search Results:</h1>
+    <hr>
+    <table>
+        <tr th:each="i : ${list}">
+            <h4><div th:text="${i.title()}"></div></h4>
+            <img th:src="${i.url()}" alt="${i.url()}">
+            <br>
+        </tr>
+    </table>
+
 </body>
 </html>
